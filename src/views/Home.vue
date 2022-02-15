@@ -9,7 +9,7 @@
       >
       <div class="tw-relative">
         <img
-          class="tw-absolute tw-top-1.5 tw-left-1 tw-w-1/10vw tw-opacity-50"
+          class="tw-absolute tw-top-2 tw-left-1 tw-w-14 tw-opacity-50"
           src="https://img.icons8.com/ios/250/000000/info.png"
           alt=""
         />
@@ -26,7 +26,7 @@
           class="tw-border tw-border-gray-400 tw-rounded-md tw-py-3 tw-px-11 tw-mb-7"
         />
         <img
-          class="tw-absolute tw-top-1.5 tw-left-1 tw-w-1/10vw tw-opacity-50"
+          class="tw-absolute tw-top-2 tw-left-1 tw-w-14 tw-opacity-50"
           src="https://img.icons8.com/ios/250/000000/info.png"
           alt=""
         />
