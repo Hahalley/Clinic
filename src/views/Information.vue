@@ -28,7 +28,7 @@
       />
       <form
         action=""
-        class="tw-flex tw-flex-col tw-items-start tw-w-full tw-ml-26"
+        class="tw-flex tw-flex-col tw-items-start tw-w-full tw-pl-12"
       >
         <label class="tw-text-primary-400 tw-text-sm tw-mb-1" for="name"
           >看診人姓名(真實全名)</label
