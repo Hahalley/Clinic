@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <div class="tw-flex tw-flex-col tw-items-center tw-mt-10">
+    <div class="tw-flex tw-flex-col tw-items-center tw-mt-10 fade opacity-100">
       <span class="tw-text-primary-400">您已預約的門診</span>
       <img
         class="tw-opacity-40 tw-w-6 tw-h-6 tw-mb-2"
@@ -51,5 +51,16 @@
 <style lang="scss" scoped>
 .shadow-yellow {
   box-shadow: 1px 1px 9px 5px #ffe980;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fade {
+  animation: fadein 3s;
 }
 </style>

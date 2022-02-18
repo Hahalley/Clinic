@@ -1,6 +1,6 @@
 <template>
   <div class="login">
-    <div class="tw-flex tw-flex-col tw-items-center tw-mt-14">
+    <div class="tw-flex tw-flex-col tw-items-center tw-mt-14 fade opacity-100">
       <!-- <div class="logo tw-mb-3"></div> -->
       <img class="tw-w-1/3 tw-mb-7" src="../assets/icon/logo-temp.png" alt="" />
       <span
@@ -86,5 +86,16 @@ input::-ms-input-placeholder {
   color: #989898;
   font-size: 14px;
   padding-left: 7px;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fade {
+  animation: fadein 3s;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
-  <div class="information">
-    <div class="tw-flex tw-flex-col tw-items-center tw-mt-10">
+  <div class="information tw-mb-10">
+    <div class="tw-flex tw-flex-col tw-items-center tw-mt-10 fade opacity-100">
       <span class="tw-text-primary-400">以下為您的預約</span>
       <img
         class="tw-opacity-40 tw-w-6 tw-h-6 tw-mb-2"
@@ -92,4 +92,16 @@
   </div>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fade {
+  animation: fadein 3s;
+}
+</style>
