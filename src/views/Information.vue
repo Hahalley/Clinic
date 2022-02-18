@@ -26,56 +26,56 @@
         src="../assets/icon/triangle.png"
         alt=""
       />
-      <form
-        action=""
-        class="tw-flex tw-flex-col tw-items-start tw-w-full tw-pl-12"
-      >
-        <label class="tw-text-primary-400 tw-text-sm tw-mb-1" for="name"
-          >看診人姓名(真實全名)</label
-        >
-        <input
-          class="tw-border tw-border-primary-200 tw-rounded-md tw-mb-2 tw-pr-28"
-          id="name"
-          type="text"
-        />
-        <label class="tw-text-primary-400 tw-text-sm tw-mb-1" for="birth"
-          >出生年月日(民國)</label
-        >
-        <input
-          class="tw-border tw-border-primary-200 tw-rounded-md tw-mb-2 tw-pr-28"
-          id="birth"
-          type="text"
-        />
-        <label class="tw-text-primary-400 tw-text-sm tw-mb-1" for="phone"
-          >聯絡電話</label
-        >
-        <input
-          class="tw-border tw-border-primary-200 tw-rounded-md tw-mb-2 tw-pr-28"
-          id="phone"
-          type="text"
-        />
-        <label class="tw-text-primary-400 tw-text-sm tw-mb-1" for="phone"
-          >備註(若看診人數超過一人，請填寫看診人數)
-        </label>
-        <textarea
-          class="tw-border tw-border-primary-200 tw-rounded-md tw-mb-2 tw-pr-1"
-          cols="33"
-          rows="5"
-          name="content"
-          id="content"
-        ></textarea>
-        <div class="tw-flex tw-items-center tw-mb-7">
-          <input
-            class="w-border tw-border-primary-200 tw-rounded-md tw-mr-2"
-            type="checkbox"
-            name=""
-            value=""
-          />
-          <span class="tw-text-sm tw-text-red-400"
-            >我要在預約當日接收Line訊息提醒通知</span
+      <div>
+        <form action="" class="tw-flex tw-flex-col tw-items-start tw-w-full">
+          <label class="tw-text-primary-400 tw-text-sm tw-mb-1" for="name"
+            >看診人姓名(真實全名)</label
           >
-        </div>
-      </form>
+          <input
+            class="tw-border tw-border-primary-200 tw-rounded-md tw-mb-2 tw-pr-28"
+            id="name"
+            type="text"
+          />
+          <label class="tw-text-primary-400 tw-text-sm tw-mb-1" for="birth"
+            >出生年月日(民國)</label
+          >
+          <input
+            class="tw-border tw-border-primary-200 tw-rounded-md tw-mb-2 tw-pr-28"
+            id="birth"
+            type="text"
+          />
+          <label class="tw-text-primary-400 tw-text-sm tw-mb-1" for="phone"
+            >聯絡電話</label
+          >
+          <input
+            class="tw-border tw-border-primary-200 tw-rounded-md tw-mb-2 tw-pr-28"
+            id="phone"
+            type="number"
+          />
+          <label class="tw-text-primary-400 tw-text-sm tw-mb-1" for="phone"
+            >備註(若看診人數超過一人，請填寫看診人數)
+          </label>
+          <textarea
+            class="tw-border tw-border-primary-200 tw-rounded-md tw-mb-2 tw-pr-1"
+            cols="33"
+            rows="5"
+            name="content"
+            id="content"
+          ></textarea>
+          <div class="tw-flex tw-items-center tw-mb-7">
+            <input
+              class="w-border tw-border-primary-200 tw-rounded-md tw-mr-2"
+              type="checkbox"
+              name=""
+              value=""
+            />
+            <span class="tw-text-sm tw-text-red-400"
+              >我要在預約當日接收Line訊息提醒通知</span
+            >
+          </div>
+        </form>
+      </div>
+
       <div class="tw-flex">
         <button
           class="tw-text-white tw-text-sm tw-bg-primary-200 tw-border tw-border-primary-200 tw-rounded-md tw-mx-3 tw-py-3 tw-px-10"
