@@ -15,8 +15,16 @@
           >請提早於預約時間前10分鐘報到，若超過預約時間5分
           鐘以上將自動取消，則重新以現場掛號方式安排...</span
         >
-        <span class="tw-mb-1">2022年01月27日15:30</span>
-        <span class="tw-mb-1">BBB醫師 </span>
+
+        <!-- <div>
+        {{ reserveDate | moment('YYYY年 MM月 DD日') }} {{ reserveTime }}
+      </div> -->
+        <!-- <span class="tw-mb-1">2022年01月27日15:30</span> -->
+        <span class="tw-mb-1"
+          >{{ reserveDate | moment('YYYY年 MM月 DD日') }}
+          {{ reserveTime }}</span
+        >
+        <span class="tw-mb-1">{{ reserveDoctor }} </span>
         <span class="tw-mb-1">活悅診所</span>
         <span>桃園市中壢區民權路四段281號1樓</span>
       </div>
@@ -79,6 +87,7 @@
       <div class="tw-flex">
         <button
           class="tw-text-white tw-text-sm tw-bg-primary-200 tw-border tw-border-primary-200 tw-rounded-md tw-mx-3 tw-py-3 tw-px-10"
+          @click="$router.push('/reservation')"
         >
           上一步
         </button>
@@ -91,7 +100,14 @@
     </div>
   </div>
 </template>
-
+<script>
+import { mapState } from 'vuex'
+export default {
+  computed: {
+    ...mapState(['reserveDate', 'reserveTime', 'reserveDoctor']),
+  },
+}
+</script>
 <style lang="scss" scoped>
 @keyframes fadein {
   0% {
