@@ -2,7 +2,7 @@
   <div class="login">
     <div class="tw-flex tw-flex-col tw-items-center tw-mt-14 fade opacity-100">
       <!-- <div class="logo tw-mb-3"></div> -->
-      <img class="tw-w-1/3 tw-mb-7" src="../assets/icon/logo-temp.png" alt="" />
+      <img class="tw-w-1/3 tw-mb-7" src="../assets/icon/logo.png" alt="" />
       <span
         class="tw-text-primary-100 tw-tracking-widest tw-font-weight-500 tw-mb-10"
         >活悅診所線上預約</span
