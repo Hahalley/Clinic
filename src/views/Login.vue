@@ -53,6 +53,7 @@
           alt=""
         />
         <button
+          @click="login()"
           class="tw-text-white tw-text-sm tw-bg-primary-300 tw-border tw-border-primary-300 tw-rounded-md tw-px-20 tw-py-3"
         >
           使用LINE帳號登入
@@ -63,7 +64,14 @@
 </template>
 
 <script>
-export default {}
+export default {
+  methods: {
+    login() {
+      window.location.href =
+        'https://access.line.me/oauth2/v2.1/authorize?response_type=code&client_id=1656969032&redirect_uri=http://localhost:8080/home&state=clinic&scope=openid%20profile'
+    },
+  },
+}
 </script>
 
 <style lang="scss" scoped>
